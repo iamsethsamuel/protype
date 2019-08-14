@@ -1,0 +1,169 @@
+#about{display: none;background-color:white;position: fixed;top: 100px;z-index: 999;padding: 15px;border-radius: 30px;box-shadow: 1px 5px 30px rgb(228, 225, 225);height: 400px;overflow: auto}
+.form-control:focus{padding: 10px;border-radius: 10px;box-shadow: 1px 5px 30px rgb(228, 225, 225);border: #fff;}
+.reportModal{display: none;background-color:white;position: fixed;top: 150px;z-index: 999;padding: 15px;border-radius: 30px;box-shadow: 1px 5px 30px rgb(228, 225, 225);}
+#closeAbout{font-size:25px;font-weight: 100;border-radius: 10px;position: sticky;top: -5px;z-index: 999;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;width: 35px;padding: 4px;color: white}
+.close:hover{cursor: pointer}
+@media (min-width:561px){
+    #menuPointer{margin-left: 23%}
+    #menuPointer :hover{cursor: pointer}
+    #main{margin-left:10px}
+    #container{margin-top: 30px;}
+    #main-container{border:outset 1px;margin-top:13px; padding-bottom:20px;border-radius:10px;margin-left: 10px;box-shadow: 4px 10px  rgb(228, 225, 225);padding: 10px}
+    #navbar{box-shadow: 1px 5px 30px rgb(228, 225, 225);position: sticky;top: 0px;z-index: 1000; background-color: white}
+    .reportModal{width: 80%;left: 100px;}
+    #navbarContent{position: relative;left: 200px;display: flex;flex-wrap: wrap}
+    .notifier{width:fit-content;left:45%;top:90px;;position:fixed;z-index:2000;}
+    #change{top:100px;box-shadow: 1px 5px 30px rgb(228, 225, 225);}
+    #about{left: 50px;width: 90%;}
+    .indexDate{font-size: 20px;font-weight: 500}
+    #login{left:100px;top: 10px}
+    #pureNavbar{position: absolute;right: 20px;}
+    #logo{position: relative;left: 8%;}
+    #loginContainer{top:17%;left:0;right: 0;overflow: auto;height: fit-content}
+    #password{width: 100%;margin:10px;margin:10px 1px;padding:10px}
+    .icon{position: relative;left: 10px;top:-30px;height: 20px;}
+    #post-info{font-size: 40px}
+    #pureLogo{position: relative;left: -33% !important;}
+    #uploadModal{position: fixed; width: 80%; height: 400px;background-color: white;box-shadow: 1px 5px 30px rgb(228, 225, 225);left: 10%;top: 20%;border-radius: 20px;}
+    #shop-container{left:10%;position:relative}
+    #profile-shops{position: fixed;top: 150px;left: 50px;width: 1500px; overflow: auto; background-color: #fff;flex-flow:row ;display: none;-ms-flex-flow:row nowrap;}
+    .profile-shop-card{margin:10px; box-shadow: 1px 5px 30px rgb(228, 225, 225);border-radius: 10px;width:500px;display: flex;flex-direction: column;}
+    #profile-close{position: sticky !important;left: 10px;top: 5px;scroll-margin-left: 10px;margin-right: 10px;position: -webkit-sticky !important;background-color: white;height: fit-content;}
+    #down-pointer{display: none}
+    #notificationsLength{top: -20px;position: relative;left: -10px;}
+    #shopmodal{padding:25px 10px;overflow: auto; z-index: 1000; background-color: white;display:none;box-shadow: 1px 5px 30px rgb(228, 225, 225);
+        position: fixed;width: 80%;left:5%;right: 5%;top: 10%;border-radius: 20px;height: fit-content;}
+    #menuShow{display: none}
+    #searchMenuSmall{display: none}
+    #searchBody{width: 75%;position: absolute;left: 23%;top: 105px;}
+    #username{width: 100%;margin:10px 1px;padding:10px}
+    #searchMenu{width: 22%;background-color: white;z-index: 999;box-shadow: 0px 0px 10px 0px rgb(228, 225, 225);height: 100%;top: 20px;
+        padding: 10px;position: relative;display: block}
+    #save{margin: 10px 5px 0px 10px}
+    #termsOfService{position: relative;margin: 10px 100px}
+}
+.badge{font-size: 17px}
+
+@media (max-width: 560px){
+    .container-fluid{padding: 0px;margin: 0px}
+    .navbar{width: 100%}
+    .col-sm-3{margin: 0px;padding: 0px;flex: 0 0 100%;right: 0px;max-width: 100%;}
+    #change{position: fixed;top: 190px;box-shadow: 0px 0px 10px 0px rgb(228, 225, 225);background-color:wheat;z-index: 1000;}
+    .card,.card-body{width: 100%;padding: 5px;}
+    .col-lg-8{width: 100%;padding: 2px;max-width: 100%;}
+    #container{margin-top: 10px}
+    #down-pointer{box-shadow: 1px 3px  rgb(228, 225, 225);background-color: white;z-index: 1000;position: absolute;right: 10px;height: fit-content; width: fit-content;
+    border-radius: 10px}
+    .indexCard{padding: 0px;}
+    .card-header{padding: 5px}
+    #logopic{position: relative;}
+    #menuPointer{margin: 0px}
+    #main{margin-left:-10px;width: 100%;}
+    .notifier{width:fit-content;left:25%;font-size: 18px;top:90px;;position:fixed;z-index:2000;}
+    #loginContainer{margin: 10px;top:10%;height: fit-content;width: 95%}
+    .searchinput:focus{border: ridge white 0.5px;padding-top: 2px;width: 100%;padding-left: 20px;border-radius: 20px;box-shadow: 0px 7px  rgb(187, 187, 187);}
+    #searchMenu{display: none} 
+    #searchMenuSmall{display: block;background-color: white;z-index: 999;width: 100%;position: relative;}
+    #searchBody{position: relative;margin-top: 70px;width: 100%;}
+    .indexCard{width: 100%;margin-left: 0px;margin-right: 0px;}
+    .indexDate{top:-28px;font-size: 15px;margin-left: 60px;font-weight: 800}
+    .input{font-size: 16px}
+    #login{position: relative;font-size: 35px;}
+    #username{width: 100%;margin:10px 1px;padding:10px }
+    #password{width: 100%;margin:10px 1px;padding:10px }
+    #key{position: relative;left: 10px;top:-40px;height: 20px;}
+    .loginIcon{position: relative;left: 10px;top:-53px;height: 20px;}
+    #person{position: relative;left: 10px;top:-40px;height: 20px;}
+    .icon{position: relative;left: 10px;top:-30px;height: 20px;}
+    #main-container{border:outset 1px;margin:13px 0px; padding:10px;border-radius:10px;margin-left: 10px;box-shadow: 4px 10px  rgb(228, 225, 225);width: 100%;overflow: auto;}
+    .next{opacity: .5;}
+    #main-container{width: 100%;padding: 0px;margin: 0px;}    
+    #menuShow{width: fit-content;background-color: whitesmoke;color: gray;display: block;font-weight: 1000;position: absolute;right: 10px;}
+    #navbarContent{position: relative;display: none;flex-wrap: wrap;padding: 5px;flex-direction: row;z-index: 999;}
+    #notificationsLength{position: relative;top: -20px}
+    #navbar{background-color: white;z-index: 1000;width: 100%;box-shadow: 5px 5px rgb(240, 237, 237);}
+    #profilepic{background-color: #eff;width: 100px;}
+    #postMenu{left: 2px;top: 10px;position: fixed;display: block;width: 95%}
+    .postMenu{left: 2px;}
+    #pureLogo{position:relative;left:-8% ;}
+    #purebar{display: none;}
+    #pureNavbar{display: none;margin-top:10px}
+    #post-info{font-size: 30px}
+    #uploadModal{top:25%;position: fixed;background: white;width: 95%;border-radius: 10px;box-shadow:1px 5px 30px rgb(228, 225, 225);margin: 10px}
+    .phone{position: relative; bottom: 0px; left:10px ;}
+    .row{width: 100%;padding: 2px;margin: 10px 0px;}
+    .reportModal{width: 100%;margin-left: -30px;}
+    #search{position: relative;margin-top: 10px;width: 150px;margin-bottom: 10px;}
+    #shopmodal{padding:25px 10px;overflow: auto; z-index: 1000; background-color: white;display:none;box-shadow: 1px 5px 30px rgb(228, 225, 225);
+        position: fixed;width: 100%;top: 10%;border-radius: 20px;height: fit-content;}
+    #searchContainer{width:260px;display: none}
+    #shopContainer{width: 100%;}
+    #termsOfService{position: relative;margin: 20px}
+}
+.row{padding: 0px;margin: 0px;}
+.container-fluid{padding: 0px;margin: 0px}
+.card{padding: 0px}
+#searchForm{top:-47px;position:relative;left:10%;margin-left: 10px;}
+#searchInput{height:41px;border-left:white 0px;}
+#menuPointer{border-radius:30px 0px 0px 30px;animation-name: "menu";animation-duration: 1s;height: 45px;margin-top: 5px;}
+#navbarArrow{font-size: 28px;padding-bottom:20px;width: 10px;font-family: 'Courier New', Courier, monospace;font-weight: bold;}
+.menuItem{width: 100%;opacity: .9;margin-bottom: 15px;font-weight: bolder;font-size: 20px}
+#postMenu{position: fixed;top: 50%;padding: 10px 10px 10px 10px;right: 45%;width: 300px;font-size:20px;opacity: .9;box-shadow: 1px 5px rgb(240, 237, 237);border-radius: 10px;}
+#notificationTray{position: fixed;top: 60px;background-color: rgb(250, 250, 250);border-radius: 10px;box-shadow: 5px 5px rgb(240, 237, 237);
+padding: 10px;z-index: 999;}
+.postMenu{position: fixed;top: 50%;padding: 10px;right: 45%;width: 300px;font-size:20px;opacity: .9;box-shadow: 1px 5px rgb(240, 237, 237);
+border-radius: 10px;z-index: 999;}
+.menu{font-size:30px; font-weight:bolder;padding-bottom:2px;margin-right:19px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;padding-top: 0px;}
+#login:hover{cursor: pointer}
+#profilePic{width: 50px;height: 50px;}
+.input{border: ridge white 0.5px;box-shadow: 0px 3px  rgb(187, 187, 187);border-radius: 20px;height: 35px;padding-right: 9px;}
+.input:focus{box-shadow: 1px 5px silver;border-color: silver;}
+.button{font-size: 16px;background-color: rgb(255, 255, 255);box-shadow: 1px 4px gainsboro;}
+.button:hover{text-decoration: none;color: rgb(76, 76, 252);   box-shadow: rgb(187, 187, 187) 0px 2px;font-size: 17px; }
+.prev{font-size: 15px;font-family: sans-serif;background-color: silver;border-radius: 10px;opacity: 0.3;
+width: 30px;padding-left: 10px;}
+.next{opacity: 0.3;font-size: 15px;border-radius: 10px;width: 30px;padding-left: 10px;padding-bottom:1px ;font-family: sans-serif;background-color: silver}
+.prev:hover,.next:hover{opacity: 1;color: azure;cursor: pointer;}
+.mainPrev{position: absolute;top: 45%;font-size: 30px;left: 25px;font-family: sans-serif;background-color: silver;border-radius: 10px;opacity: 0.3;width: 40px;padding-left: 15px;}
+.mainNext{position: absolute;top: 12%;right: 50px;opacity: 0.3;font-size: 30px;border-radius: 10px;width: 40px;padding-left: 15px;font-family: sans-serif;background-color: silver}
+.mainPrev:hover,.mainNext:hover{opacity: 1;color: azure;cursor: pointer;}
+.userMenu{position: absolute;top: 60px;display: none;box-shadow: 1px 3px  rgb(228, 225, 225);border-radius: 10px ;padding-bottom: 10px;padding-top: 10px;}
+#logout{position: relative;float: right;}
+#saveTray{position: fixed;top: 60px;background-color: rgb(250, 250, 250);border-radius: 10px;box-shadow: 5px 5px rgb(240, 237, 237);
+    padding: 10px;z-index: 999;}
+.searchItem:hover{background-color: rgb(79, 79, 255);color: white}
+.itemList{position: relative;box-shadow: 0px 0px 10px 0px rgb(228, 225, 225);margin-bottom: 20px;border-radius: 10px}
+.itemList:hover{cursor: pointer;}
+#updateprofilepic{position: fixed;background-color: white;top: 25%;width: 400px;left: 25%;padding-top: 20px;padding-left: 20px;box-shadow: 1px 5px 5px 5px rgb(228, 225, 225);
+border-radius: 10px}
+#seatReservation{position:fixed;width:90%; height: 500px; background-color: #fff;z-index: 999; top: 130px;left: 20px;right: 20px;
+box-shadow: 1px 5px 5px 5px rgb(190, 190, 190);border-radius: 20px;padding: 20px;}
+#response{height:200px; width:90%; box-shadow: 0px 10px 40px rgb(228, 225, 225);border-radius: 10px;background-color: white;padding: 10px;position: fixed;
+top: 150px;right: 20px;left: 20px;}
+.btn{box-shadow: 0px 10px 10px rgb(228, 225, 225); }
+#requestedCheckouts{position:fixed;width:90%; height: 80%;background-color: #fff;z-index: 999; top: 100px;overflow: auto;left: 20px;right: 20px;
+box-shadow: 1px 5px 30px rgb(228, 225, 225);border-radius: 20px;padding: 0px 20px 20px 20px;}
+#recievedCheckouts{position:fixed;width:90%; height: 80%;background-color: #fff;z-index: 999; top: 100px;overflow: auto;left: 20px;right: 20px;
+box-shadow: 1px 5px 30px rgb(228, 225, 225);border-radius: 20px;padding: 0px 20px 20px 20px;}
+#loginContainer{box-shadow: 0px 0px 10px 0px rgb(228, 225, 225)}
+#loader{height: 60px;width: 60px;border-radius: 30px;border-top: #dc3581 outset 1px;position: fixed;z-index: 1000;left: 50%;display: none;
+animation-name: loader;animation-duration: 1s;animation-iteration-count: infinite}
+@keyframes loader{from{transform: rotate(0deg);border-color: skyblue;border-width: 30px}to{transform: rotate(360deg);border-width:30px;border: #dc3581}}
+ #shopmodal{position: fixed;padding: 15px;width: 80%;height: 75%;overflow: auto;display: none;left: 10%;box-shadow: 1px 5px 30px rgb(228, 225, 225);border-radius: 20px}
+@keyframes showmenu{to{transform: rotate(90deg)}}
+.card{background-color: white}
+.card-header{background-color: white}
+.card-footer{background-color: white}
+::placeholder{font-size: 19px;}
+@keyframes FadeIn{from{opacity: 0;}to{opacity: 1;}}
+@keyframes FadeOut{from{opacity: 1;}to{opacity: 0;}}
+@keyframes notifierAnimation{90%{opacity: 1;}100%{opacity: 0;}}
+@keyframes blink{0%{transform: rotate(1deg)}25%{box-shadow: none;transform: rotate(-1deg)} 
+50%{box-shadow: 1px 0px 30px rgb(255, 122, 122);transform: rotate(1deg)} 75%{box-shadow: none;transform: rotate(-1deg)} 100%{transform: rotate(1deg)}}
+@keyframes SlideDown{from{transform: translate(0px, -199px); opacity: 0}to{transform: translate(0px,0px);opacity: 1}}
+@keyframes SlideUp{from{transform: translate(0px,0px); opacity: 1;background-color: white}to{transform: translate(0px,-199px); opacity: 0; background-color: white}}
+@keyframes NavbarSlideDown{0%{height: 55px;}100%{height: 186px;}}
+@keyframes NavbarSlideUp{0%{height: 186px}100%{height: 55px;}}
+
+.notifier{animation-name: FadeIn;animation-duration: 1s; animation-iteration-count: 1}
+/* body:{background-image: url()} */

@@ -1,0 +1,22 @@
+{
+    "gcm_sender_id":"103953800507",
+    "short_name":"Venmun",
+    "name": "Venmun",
+    "description":"Sellers world",
+    "icons":[{
+        "src":"/media/logo192.png",
+        "type":"image/png",
+        "sizes":"192x192"
+    },
+    {
+        "src": "/media/logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+    }
+    ],
+    "scope":"/",
+    "start_url":"/",
+    "background_color":"white",
+    "display":"standalone",
+    "theme_color": "#007bff"
+}

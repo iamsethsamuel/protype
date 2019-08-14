@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Venmun</title>        
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="/static/bootstrap.css">
+        <link rel="stylesheet" href="/static/main.css">
+        <link rel="manifest" href="/static/manifest.json">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content='#007bff'>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="apple-touch-icon" href="touch-icon-iphone.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/media/upload_653ff8f15409b4b2ea96cfd419579b72.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/media/upload_653ff8f15409b4b2ea96cfd419579b72.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="/media/upload_653ff8f15409b4b2ea96cfd419579b72.png">
+        <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" href="/media/upload_653ff8f15409b4b2ea96cfd419579b72.png">
+        <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" href="/media/upload_653ff8f15409b4b2ea96cfd419579b72.png">
+        <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" href="/media/upload_653ff8f15409b4b2ea96cfd419579b72.png">
+        <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3)" href="/media/upload_653ff8f15409b4b2ea96cfd419579b72.png">
+        <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="/media/upload_653ff8f15409b4b2ea96cfd419579b72.png">
+        <link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" href="/media/upload_653ff8f15409b4b2ea96cfd419579b72.png">
+        <link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" href="/media/upload_653ff8f15409b4b2ea96cfd419579b72.png">
+        <link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" href="/media/upload_653ff8f15409b4b2ea96cfd419579b72.png">
+        <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" href="/media/upload_653ff8f15409b4b2ea96cfd419579b72.png">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="apple-mobile-web-app-title" content="Venmun">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="description" content="Showcase your business and get connected to buyers and users locally" id="meta-description">
+        <script src="/static/js.cookie.js"></script>
+       <script src="/static/main.js"></script>
+    </head>
+<body >
+    <div id="root"></div>
+    
+</div>
+    <div id="change" class="fixed-top" style="background-color:white;z-index: 1000"></div>
+    
+    <button class="btn btn-success container" style='display:none' onclick="document.getElementById('install-btn').style.display='none';deferedinstall.prompt()" id="install-btn">For better exprience. Click to install</button>
+    <div id="uploadModal" style="padding: 20px;display: none">
+        <h1 class="float-right text-secondary close"  onclick="document.querySelector('#uploadModal').style.display='none'">X</h1>
+        <h1 class="container text-secondary" id="progress"></h1>
+        <div id="uploadLoader" ></div>
+        <style>
+        #uploadLoader{height: 60px;width: 60px;border-radius: 30px;border-top: #dc3581 outset 1px;position: relative;left: 50%;top: 70%;
+        animation-name: loader;animation-duration: 1s;animation-iteration-count: infinite}
+        @keyframes loader{from{transform: rotate(0deg);border-color: skyblue;border-width: 30px}to{transform: rotate(360deg);border-width:30px}}
+        #shopmodal{position: fixed;padding: 15px;width: 80%;height: 75%;overflow: auto;display: none;left: 10%;box-shadow: 1px 5px 30px rgb(228, 225, 225);border-radius: 20px}
+        </style>
+    </div>
+</body>
+</html>
